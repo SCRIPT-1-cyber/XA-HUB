@@ -1,0 +1,11 @@
+-- 想直接执行的话执行这个↓
+--loadstring(game:HttpGet("https://github.com/YunLua/Lua/raw/main/XA_Hub.lua", true))()
+local HttpService = game:GetService("HttpService")
+local IsLoaded = game:IsLoaded()
+makefolder("XA-Hub")
+makefolder("XA-Hub/Music")
+local Script = loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPT-1-cyber/XA-HUB/refs/heads/main/%5B1%5DNPC%20FPS.lua"))()
+local Script = loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPT-1-cyber/XA-HUB/refs/heads/main/%5B2%5DUI%E5%BA%93.lua"))()
+local Script = loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPT-1-cyber/XA-HUB/refs/heads/main/%5B3%5D%E5%B1%8F%E5%B9%95%E9%80%9A%E7%9F%A5%E5%BC%B9%E7%AA%97%E5%BA%93.lua"))()
+local Script = loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPT-1-cyber/XA-HUB/refs/heads/main/%5B4%5D%E7%8E%A9%E5%AE%B6ESP.lua"))()
+local Players = game:GetService("Players")
