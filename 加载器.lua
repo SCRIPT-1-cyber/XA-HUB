@@ -1,5 +1,3 @@
--- 想直接执行的话执行这个↓
---loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPT-1-cyber/XA-HUB/refs/heads/main/%E5%8A%A0%E8%BD%BD%E5%99%A8.lua", true))()", true))()
 local HttpService = game:GetService("HttpService")
 local IsLoaded = game:IsLoaded()
 makefolder("XA-Hub")
@@ -10,3 +8,4 @@ local Script = loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPT
 local Script = loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPT-1-cyber/XA-HUB/refs/heads/main/%5B4%5D%E7%8E%A9%E5%AE%B6ESP.lua"))()
 
 local Players = game:GetService("Players")
+
